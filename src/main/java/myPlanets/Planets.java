@@ -7,14 +7,14 @@ public class Planets {
 		
 		private String name;
 		private String size;
-		private boolean rings;
+		private boolean inRetrograde;
 
 		
-		public Bird(String name, String color, boolean feathered) {
+		public Planets(String name, String color, boolean inRetrograde) {
 			super();
 			this.name = name;
 			this.size = size;
-			this.rings = rings;
+			this.inRetrograde = inRetrograde;
 		}
 	}
 
